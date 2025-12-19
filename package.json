@@ -29,9 +29,11 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
+    "@langchain/classic": "^1.0.7",
     "@langchain/community": "^1.1.1",
     "@langchain/core": "^1.1.7",
     "@langchain/openai": "^1.2.0",
+    "@langchain/textsplitters": "^1.0.1",
     "chromadb": "^3.1.8",
     "dotenv": "^17.2.3",
     "langchain": "^1.2.2",

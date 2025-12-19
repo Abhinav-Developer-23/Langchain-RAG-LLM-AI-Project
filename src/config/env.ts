@@ -6,6 +6,8 @@ dotenv.config();
 export const config = {
   openai: {
     apiKey: process.env.OPENAI_API_KEY,
+    modelName: process.env.OPENAI_MODEL_NAME ,
+    embeddingModel: process.env.OPENAI_EMBEDDING_MODEL ,
   },
   chroma: {
     url: process.env.CHROMA_URL || 'http://localhost:8000',
