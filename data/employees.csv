@@ -1,0 +1,7 @@
+name,department,role,experience_years,skills
+Alice Johnson,Engineering,Senior ML Engineer,7,"Python, TensorFlow, LangChain, RAG"
+Bob Smith,Data Science,Data Scientist,4,"Python, Pandas, Scikit-learn, SQL"
+Carol White,Engineering,Backend Developer,5,"Python, FastAPI, Docker, PostgreSQL"
+David Brown,Research,AI Researcher,8,"PyTorch, Transformers, NLP, Computer Vision"
+Eve Davis,Product,ML Product Manager,6,"Product Strategy, A/B Testing, Data Analysis"
+Frank Wilson,Engineering,MLOps Engineer,3,"Kubernetes, MLflow, CI/CD, Python"

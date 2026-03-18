@@ -1,0 +1,30 @@
+LangChain Document Loaders - Overview
+======================================
+
+LangChain provides a unified interface for loading documents from many different sources.
+Document loaders are a key part of the RAG (Retrieval-Augmented Generation) pipeline.
+
+What is a Document?
+-------------------
+In LangChain, a Document is an object containing:
+  - page_content: The actual text content
+  - metadata: A dictionary with information about the source
+
+Types of Document Loaders
+--------------------------
+1. TextLoader      - Loads plain .txt files
+2. PyPDFLoader     - Loads PDF files page by page
+3. CSVLoader       - Loads CSV files, one row per document
+4. WebBaseLoader   - Loads content from web URLs
+5. DirectoryLoader - Loads all files from a directory
+
+Why Document Loaders Matter
+----------------------------
+Before you can build a RAG system, you need to:
+  1. Load documents from their source
+  2. Split them into manageable chunks
+  3. Embed the chunks into vector space
+  4. Store embeddings in a vector database
+  5. Retrieve relevant chunks for a given query
+
+Document loaders handle step 1 — feeding raw data into your pipeline.

@@ -1,0 +1,20 @@
+Project Meeting Notes - AI Team
+================================
+Date: March 9, 2026
+
+Agenda:
+  - Review current RAG pipeline performance
+  - Discuss embedding model options
+  - Plan next sprint tasks
+
+Key Decisions:
+  - Switch from OpenAI embeddings to sentence-transformers for cost efficiency
+  - Add re-ranking step using cross-encoder models
+  - Target: sub-200ms retrieval latency
+
+Action Items:
+  - Abhinav: Set up LangChain document loaders pipeline
+  - Team: Evaluate ChromaDB vs FAISS for vector storage
+  - Everyone: Review LangChain v0.3 migration guide
+
+Next Meeting: March 16, 2026

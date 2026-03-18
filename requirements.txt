@@ -1,0 +1,13 @@
+langchain
+langchain-groq
+faiss-cpu
+tiktoken
+langchain-community
+langchain-openai
+chromadb
+sentence-transformers
+pypdf
+python-dotenv
+ipykernel
+pandas
+reportlab>=4.4.10
